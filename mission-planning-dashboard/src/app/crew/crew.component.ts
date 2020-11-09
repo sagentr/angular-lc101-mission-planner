@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./crew.component.css']
 })
 export class CrewComponent implements OnInit {
+  
+  crewNames = ['Jessica Watkins', 'Raja Chari', 'Jasmin Moghbeli'];
 
   constructor() { }
 
